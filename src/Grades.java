@@ -7,21 +7,12 @@ public class Grades {
         int grade = scan.nextInt();
 
         switch (grade) {
-            case 1:
-                System.out.println("Very Good");
-                break;
-            case 2:
-                System.out.println("Good");
-                break;
-            case 3:
-                System.out.println("Satisfactory");
-                break;
-            case 4:
-                System.out.println("Sufficient");
-                break;
-            case 5:
-                System.out.println("Not Sufficient");
-                break;
+            case 1 -> System.out.println("Very Good");
+            case 2 -> System.out.println("Good");
+            case 3 -> System.out.println("Satisfactory");
+            case 4 -> System.out.println("Sufficient");
+            case 5 -> System.out.println("Not Sufficient");
+            default -> System.out.println("No Grade");
         }
     }
 }
